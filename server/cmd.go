@@ -11,7 +11,7 @@ import (
 	"github.com/joho/godotenv"
 )
 
-var KEY = os.Getenv("API")
+var KEY string
 
 var lat, lon float64
 
@@ -56,6 +56,8 @@ func main() {
 	if err != nil {
 		log.Fatal("Ошибка загрузки файла .env")
 	}
+
+	KEY = os.Getenv("API")
 
 	http.HandleFunc("/getLanLon", GetLatLon)
 	http.HandleFunc("/getWeather", GetMeteoData)
