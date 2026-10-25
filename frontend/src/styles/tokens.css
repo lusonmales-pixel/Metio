@@ -1,0 +1,21 @@
+:root {
+  --bg: #090909;
+  --surface: #1c1a1a;
+  --surface-elevated: #252222;
+  --border: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.18);
+  --text-primary: #f2f0ef;
+  --text-secondary: #a29d9b;
+  --text-muted: #716d6b;
+  --accent: #e7e1dc;
+  --error: #d98a7e;
+
+  --radius-small: 10px;
+  --radius-medium: 16px;
+  --radius-large: 24px;
+  --radius-pill: 999px;
+
+  --font-display: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --font-body: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Cascadia Code', monospace;
+}
